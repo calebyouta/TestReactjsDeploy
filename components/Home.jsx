@@ -24,11 +24,7 @@ const Home = () => {
           <br /> ainsi que Graphiste Designer. Contactez-moi si vous avez besoin
           de mes services.
         </p>
-        <a
-          onClick={() => (window.location.href = mailtoLink)}
-          href=""
-          className="btn btn-accent md:w-fit"
-        >
+        <a href={mailtoLink} className="btn btn-accent md:w-fit">
           <Mail className="size-5" /> Contactez-moi
         </a>
       </div>
