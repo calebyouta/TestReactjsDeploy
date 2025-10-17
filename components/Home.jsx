@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 import img from "../src/assets/assets/img.jpg";
 
-const home = () => {
+const Home = () => {
   const email = "atebadimitri473@gmail.com";
   const subject = "Demande d'informations sur vos services";
   const body =
@@ -45,4 +45,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
